@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 320px;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+}
+
+.logo img {
+    width: 120px;
+    height: 50px;
+}
+
+.right-nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.right-nav ul li {
+    font-size: 1.3rem;
+    padding: 0.5em;
+    border-left: 1px solid gray;
+}
+
+.right-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fa-search {
+    color: gray;
+}
+
+.fa-bars {
+    color: rgb(218, 84, 32);
+}
