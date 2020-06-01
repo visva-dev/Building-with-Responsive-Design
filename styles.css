@@ -17,7 +17,7 @@ nav {
 }
 
 .logo img {
-    width: 120px;
+    width: 110px;
     height: 50px;
 }
 
@@ -29,7 +29,7 @@ nav {
 .right-nav ul li {
     font-size: 1.3rem;
     padding: 0.5em;
-    border-left: 1px solid gray;
+    border-left: 1px solid rgb(212, 212, 212);
 }
 
 .right-nav {
@@ -39,9 +39,42 @@ nav {
 }
 
 .fa-search {
-    color: gray;
+    color: rgb(153, 151, 151);
 }
 
 .fa-bars {
     color: rgb(218, 84, 32);
+}
+
+.yellow {
+    background: rgb(255, 219, 56);
+    padding: 1.2rem 0.8rem;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: linear-gradient(180deg, rgba(2,0,36,0.3883928571428571) 0%, rgba(0,0,0,0.6741071428571428) 55%, rgba(0,0,0,1) 100%), url(images/robot.png);
+    background-size: cover;
+    color: white;
+    height: 30vh;
+    margin: 0 0.5rem
+}
+
+.news ul {
+    display: flex;
+    font-size: 0.8rem;
+}
+
+.news ul li {
+    padding: 0.5em 0.5em;
+}
+
+.news-dsc {
+    margin-bottom: 1em;
+    padding: 0 0.8em;
+    font-size: 0.8rem;
 }
