@@ -48,13 +48,14 @@ nav {
 }
 
 header {
+    width: 100%;
     background: white;
     position: fixed;
 }
 
 .yellow {
   background: rgb(255, 219, 56);
-  padding: 1.2rem 0.3rem;
+  padding: 1.2rem 1rem;
   font-size: 13px;
   text-align: center;
 }
@@ -185,7 +186,7 @@ header {
     font-size: 11px;
 }
 
-.company p {
+.bold {
     font-weight: bold;
 }
 
@@ -213,4 +214,21 @@ header {
     border-top: 0.1px solid #ff4422;
     width: 90%;
     margin: 0 auto;
+}
+
+.chrome {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin: 1px 8px;
+    background-color: #fdf8f6;
+    padding: 0 0 2px 10px;
+}
+
+.chrome img {
+    width: 100%;
+    height: 100%;
+}
+
+.chrome > div {
+    width: 90%;
 }
