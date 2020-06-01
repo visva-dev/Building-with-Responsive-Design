@@ -1,80 +1,148 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
 .container {
-    max-width: 320px;
-    margin: auto;
+  max-width: 320px;
+  margin: auto;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    height: 50px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 50px;
 }
 
 .logo img {
-    width: 110px;
-    height: 50px;
+  width: 110px;
+  height: 50px;
 }
 
 .right-nav ul {
-    display: flex;
-    list-style: none;
+  display: flex;
+  list-style-type: none;
 }
 
 .right-nav ul li {
-    font-size: 1.3rem;
-    padding: 0.5em;
-    border-left: 1px solid rgb(212, 212, 212);
+  font-size: 1.3rem;
+  padding: 0.5em;
+  border-left: 1px solid rgb(212, 212, 212);
 }
 
 .right-nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .fa-search {
-    color: rgb(153, 151, 151);
+  color: rgb(153, 151, 151);
 }
 
-.fa-bars {
-    color: rgb(218, 84, 32);
+.orange {
+  color: rgb(218, 84, 32);
 }
 
 .yellow {
-    background: rgb(255, 219, 56);
-    padding: 1.2rem 0.8rem;
-    font-size: 0.9rem;
-    text-align: center;
+  background: rgb(255, 219, 56);
+  padding: 1.2rem 0.8rem;
+  font-size: 0.9rem;
+  text-align: center;
 }
 
-.news {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    background: linear-gradient(180deg, rgba(2,0,36,0.3883928571428571) 0%, rgba(0,0,0,0.6741071428571428) 55%, rgba(0,0,0,1) 100%), url(images/robot.png);
-    background-size: cover;
-    color: white;
-    height: 30vh;
-    margin: 0 0.5rem
+.news,
+.news2,
+.news3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: linear-gradient(
+      180deg,
+      rgba(2, 0, 36, 0.3883928571428571) 0%,
+      rgba(0, 0, 0, 0.6741071428571428) 55%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url(images/robot.png);
+  background-size: cover;
+  color: white;
+  height: 30vh;
+  margin: 0 0.5em 0.5em 0.5em;
 }
 
-.news ul {
-    display: flex;
-    font-size: 0.8rem;
+.news2 {
+    background: linear-gradient(
+        180deg,
+        rgba(2, 0, 36, 0.3883928571428571) 0%,
+        rgba(0, 0, 0, 0.6741071428571428) 55%,
+        rgba(0, 0, 0, 1) 100%
+      ),
+      url(images/Sprint_image.jpg);
 }
 
-.news ul li {
-    padding: 0.5em 0.5em;
+.news3 {
+    background: linear-gradient(
+        180deg,
+        rgba(2, 0, 36, 0.3883928571428571) 0%,
+        rgba(0, 0, 0, 0.6741071428571428) 55%,
+        rgba(0, 0, 0, 1) 100%
+      ),
+      url(images/work-home-side-job-gq-796x417.png);
+}
+
+.info {
+  display: flex;
+  font-size: 0.8rem;
+  list-style-type: none;
+}
+
+.news ul li,
+.news2 ul li,
+.news3 ul li {
+  padding: 0.5em 0.3em;
+  font-size: 0.7rem;
+  color: rgb(173, 169, 169);
 }
 
 .news-dsc {
-    margin-bottom: 1em;
-    padding: 0 0.8em;
+  margin-bottom: 1em;
+  padding: 0 0.8em;
+  font-size: 0.8rem;
+}
+
+.latest-article {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.latest-news h2 a {
+    color: gray;
+}
+
+.latest-article img {
+    width: 80px;
+    height: 80px;
+    margin: 0 1em 1em 1em;
+}
+
+.latest-article h4 {
     font-size: 0.8rem;
+    padding-right: 0.5em;
+}
+
+.latest-article h6 {
+    color: rgb(173, 169, 169);
+}
+
+.heading {
+    font-size: 1.5rem;
+    margin-top: 2em;
+    padding: 0 1em 1em 0.7em;
+}
+
+.heading a:hover {
+    color: black;
 }
