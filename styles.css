@@ -54,8 +54,8 @@ header {
 
 .yellow {
   background: rgb(255, 219, 56);
-  padding: 1.2rem 0.8rem;
-  font-size: 0.9rem;
+  padding: 1.2rem 0.3rem;
+  font-size: 13px;
   text-align: center;
 }
 
@@ -127,11 +127,16 @@ header {
     color: gray;
 }
 
-.latest-article img,
-.company img {
+.latest-article img {
     width: 80px;
     height: 80px;
     margin: 0 1em 1em 1em;
+}
+
+.company img {
+    width: 60px;
+    height: 60px;
+    margin: 10px auto;
 }
 
 .latest-article h4 {
@@ -166,9 +171,46 @@ header {
     background: #ff4422;
     background: linear-gradient(180deg, #ff4422 50%, rgba(255, 68, 34, 0.08) 50%);
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 3fr;
+    margin: auto 15px;
 }
 
-.company h1 {
-    font-size: 1rems;
+.comp-title {
+    font-size: 18px;
+    padding: 10px 0 20px 0;
+    color: white;
+}
+
+.company span {
+    font-size: 11px;
+}
+
+.company p {
+    font-weight: bold;
+}
+
+.company-holder {
+    margin-top: 10px;
+}
+
+.fund-dsc {
+    margin: 0 15px 20px 15px;
+    background-color: #fdf8f6;
+}
+
+.fund-dsc p {
+    font-size: 13px;
+    padding: 0.5em 2em;
+}
+
+.fund-dsc span {
+    font-size: 12px;
+    color: rgb(167, 165, 165);
+    padding: 0 3em;
+}
+
+.txt-line {
+    border-top: 0.1px solid #ff4422;
+    width: 90%;
+    margin: 0 auto;
 }
