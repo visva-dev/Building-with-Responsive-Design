@@ -62,7 +62,8 @@ header {
 
 .news,
 .news2,
-.news3 {
+.news3,
+.middle-news {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -387,7 +388,37 @@ footer {
   }
 
   .news {
-    display: grid;
-    
+    height: 100%;
   }
+
+  .news { grid-area: news; }
+  .news2 { grid-area: news2; }
+  .news3 { grid-area: news3; }
+
+  .news-holder {
+    display: grid;
+    grid-template-areas:
+    'news news  news news2'
+    'news news news news3';
+    height: 100%;
+  }
+
+  .latest-news {
+    display: grid;
+    width: 97%;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    margin: auto;
+  }
+
+  .latest-article img {
+    width: 100%;
+    margin: auto;
+    height: 65%;
+  }
+
+  .latest-article {
+    display: inline-block;
+  }
+
 }
