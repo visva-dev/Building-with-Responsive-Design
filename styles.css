@@ -272,6 +272,7 @@ footer {
 .social {
   padding: 30px 10px;
   align-content: center;
+  width: 100%;
 }
 
 .social ul {
@@ -279,6 +280,8 @@ footer {
   font-size: 1.3rem;
   justify-content: space-evenly;
   list-style-type: none;
+  width: 50%;
+  margin: auto;
 }
 
 .social ul li {
@@ -297,4 +300,31 @@ footer {
 
 .footer-links a {
   color: #aaaaaa
+}
+
+.footer-links {
+  padding: 5px 5px;
+  align-content: center;
+}
+
+.footer-links ul {
+  display: flex;
+  font-size: 0.7rem;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.footer-links ul li {
+  padding-left: 7px;
+  text-align: center;
+}
+
+.bottom-footer {
+  display: flex;
+  margin: 2em auto;
+  text-align: center;
+  bottom: 0;
+  width: 40%;
+  flex-wrap: wrap;
+  color: #fdf8f6;
 }
