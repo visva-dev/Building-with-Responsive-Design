@@ -151,8 +151,14 @@ header {
 
 .heading {
     font-size: 1.5rem;
-    margin-top: 2em;
+    margin-top: 1.5em;
     padding: 0 1em 1em 0.7em;
+}
+
+.small-heading {
+  font-size: 0.7rem;
+  margin-top: 4em;
+  padding: 0 1em 1em 0.7em;
 }
 
 .heading a:hover {
@@ -255,16 +261,40 @@ header {
 
 .deals {
   display: flex;
-  justify-content: center;
-  background-color: green;
+  justify-content: space-between;
 }
 
-.deals h4 {
+footer {
+  background: linear-gradient(rgb(36, 33, 33) 50%, rgb(12, 12, 12) 50%);
+  height: 40vh;
+}
+
+.social {
+  padding: 30px 10px;
+  align-content: center;
+}
+
+.social ul {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  font-size: 1.3rem;
+  justify-content: space-evenly;
+  list-style-type: none;
 }
 
-.deals h1 {
-  align-items: center;
+.social ul li {
+  border: 1px solid rgb(36, 33, 33);
+  background: #333;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  padding: 8px;
+  text-align: center;
+}
+
+.social ul li a {
+  color: white;
+}
+
+.footer-links a {
+  color: #aaaaaa
 }
