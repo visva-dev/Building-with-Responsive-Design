@@ -50,7 +50,8 @@ nav {
 header {
     width: 100%;
     background: white;
-    position: fixed;
+    position: sticky;
+    top: 0;
 }
 
 .yellow {
@@ -387,8 +388,11 @@ footer {
     height: 90px;
   }
 
-  .news {
+  .news,
+  .news2,
+  .news3 {
     height: 100%;
+    width: 100%;
   }
 
   .news { grid-area: news; }
@@ -401,6 +405,8 @@ footer {
     'news news  news news2'
     'news news news news3';
     height: 100%;
+    width: 98%;
+    grid-gap: 8px;
   }
 
   .latest-news {
