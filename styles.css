@@ -52,6 +52,7 @@ header {
   background: white;
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 
 .yellow {
@@ -178,7 +179,7 @@ header {
 
 .comp-title {
   display: block;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   margin: 0.5rem 0 0 5rem;
   color: white;
 }
@@ -240,9 +241,9 @@ header {
 
 .company-holder {
   display: grid;
-  grid-gap: 2rem;
-  grid-template-columns: 1fr;
-  margin-top: 10px;
+  grid-gap: 1rem;
+  grid-template-rows: 1fr;
+  margin-top: 15px;
 }
 
 .txt-line {
@@ -265,7 +266,7 @@ header {
   height: 100%;
 }
 
-.chrome > div {
+.chrome > label {
   width: 90%;
 }
 
@@ -275,17 +276,17 @@ header {
 
 .chrome-links ul li a {
   color: #575555;
-  border-bottom: 1px solid rgb(183, 187, 183);
-  padding: 10px 0px;
 }
 
 .chrome-links ul {
-  width: 100%;
+  width: 85%;
+  margin: auto;
 }
 
 .chrome-links ul li {
-  padding-bottom: 25px;
+  padding: 10px 0;
   font-size: 12px;
+  border-bottom: 1px solid rgb(183, 187, 183);
 }
 
 .deals {
@@ -442,7 +443,8 @@ footer {
     grid-gap: 8px;
   }
 
-  .latest-news {
+  .latest-news,
+  .company-holder {
     display: grid;
     width: 97%;
     grid-template-columns: auto auto auto;
@@ -458,5 +460,17 @@ footer {
 
   .latest-article {
     display: inline-block;
+  }
+
+  .company {
+    width: 100%;
+    margin: auto;
+  }
+
+  .wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: auto;
   }
 }
