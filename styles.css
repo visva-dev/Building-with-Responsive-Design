@@ -122,16 +122,22 @@ header {
   font-size: 0.8rem;
 }
 
-.latest-article {
+.latest-article,
+.latest-article-deals {
   display: grid;
   grid-template-columns: 1fr 6fr;
+}
+
+.latest-article-deals {
+  margin: auto;
 }
 
 .latest-news h2 a {
   color: gray;
 }
 
-.latest-article img {
+.latest-article img,
+.latest-article-deals img {
   width: 80px;
   height: 80px;
   margin: 0 1em 1em 1em;
@@ -444,6 +450,7 @@ footer {
   }
 
   .latest-news,
+  .latest-deals,
   .company-holder {
     display: grid;
     width: 97%;
@@ -452,10 +459,30 @@ footer {
     margin: auto;
   }
 
+  .latest-deals {
+    margin-bottom: 5rem;
+  }
+
   .latest-article img {
     width: 100%;
     margin: auto;
     height: 65%;
+  }
+
+  .latest-article-deals {
+    display: block;
+    font-size: 1.1rem;
+  }
+
+  .stroke {
+    text-decoration: line-through;
+    color: grey;
+  }
+
+  .latest-article-deals img {
+    width: 30vh;
+    margin: auto;
+    height: 25vh;
   }
 
   .latest-article {
