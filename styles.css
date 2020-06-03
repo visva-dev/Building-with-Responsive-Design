@@ -172,8 +172,7 @@ header {
 
 .company {
   position: relative;
-  background: #ff4422;
-  background: linear-gradient(180deg, #ff4422 50%, rgba(255, 68, 34, 0.08) 50%);
+  background: linear-gradient(180deg, #ff4422 20%, rgba(255, 68, 34, 0.08) 25%, rgb(238, 209, 203) 25%);
   margin: auto 15px;
 }
 
@@ -186,7 +185,26 @@ header {
 
 .price {
   display: block;
-  margin: 1rem 0 0 5rem;
+  margin: 1.5rem 0 0 5rem;
+  color: #333;
+}
+
+.test {
+  display: block;
+  margin: 1rem 0 0 1rem;
+  color: #333;
+}
+
+.test-2 {
+  display: block;
+  padding: 1rem 0 0 1rem;
+  color: #333;
+}
+
+.test-3 {
+  display: block;
+  margin: 1rem 0 0 1rem;
+  color: rgb(165, 161, 161);
 }
 
 .company img {
