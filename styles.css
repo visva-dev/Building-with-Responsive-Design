@@ -78,7 +78,7 @@ header {
     url(images/robot.png);
   background-size: cover;
   color: white;
-  height: 30vh;
+  height: 35vh;
   margin: 0 0.5em 0.5em 0.5em;
 }
 
@@ -301,6 +301,7 @@ header {
 }
 
 footer {
+  position: relative;
   background: linear-gradient(rgb(36, 33, 33) 50%, rgb(12, 12, 12) 50%);
   height: 40vh;
 }
@@ -354,8 +355,9 @@ footer {
   padding-left: 7px;
   text-align: center;
 }
-
+/* fix this to the bottom */
 .bottom-footer {
+  position: absolute;
   display: flex;
   margin: 2em auto;
   text-align: center;
@@ -365,12 +367,15 @@ footer {
   flex-wrap: wrap;
   color: #fdf8f6;
 }
-
-.hidden {
+.date {
   display: none;
 }
 
-@media screen and (min-width: 768px) {
+.hidden, .desktop {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
   .nav-info {
     display: flex;
     background-color: black;
@@ -444,7 +449,7 @@ footer {
     grid-template-areas:
       'news news  news news2'
       'news news news news3';
-    height: 100%;
+    height: 45vh;
     width: 98%;
     grid-gap: 8px;
   }
@@ -480,7 +485,7 @@ footer {
   }
 
   .latest-article-deals img {
-    width: 30vh;
+    width: 100%;
     margin: auto;
     height: 25vh;
   }
@@ -499,5 +504,61 @@ footer {
     display: grid;
     grid-template-columns: auto auto;
     margin: auto;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .logo {
+    display: none;
+  }
+
+  .news-holder {
+    height: 60vh;
+  }
+
+  .small {
+    background-size: 40% 20%;
+  }
+
+  .news {
+    position: relative;
+    background: linear-gradient(
+      180deg,
+      rgba(2, 0, 36, 0.3883928571428571) 0%,
+      rgba(0, 0, 0, 0.6741071428571428) 55%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url(images/tnw.svg) no-repeat 15px 15px,
+    url(images/cover-gradient.png),
+    url(images/work-home-side-job-gq-796x417.png);
+    background-size: auto, 20rem, auto;
+  }
+
+  .date {
+    display: block;
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    opacity: 50%;
+  }
+
+  .latest-news,
+  .latest-deals {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+
+  .company-holder {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  .desktop {
+    display: block;
   }
 }
