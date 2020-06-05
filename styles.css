@@ -27,6 +27,16 @@ nav {
   list-style-type: none;
 }
 
+.labels li {
+  padding-bottom: 0.7rem;
+}
+
+.chrome-links li {
+  padding: 8px 0;
+  font-size: 12px;
+  border-bottom: 1px solid rgb(183, 187, 183);
+}
+
 .right-nav ul li {
   font-size: 1.3rem;
   padding: 0.5em;
@@ -140,6 +150,10 @@ header {
   margin: auto;
 }
 
+.footer-links a {
+  color: #aaa;
+}
+
 .latest-news h2 a {
   color: gray;
 }
@@ -170,6 +184,14 @@ header {
   font-size: 0.7rem;
   margin-top: 4em;
   padding: 0 1em 1em 0.7em;
+}
+
+.chrome-links li a {
+  color: #575555;
+}
+
+.social ul li a {
+  color: white;
 }
 
 .heading a:hover {
@@ -219,10 +241,6 @@ header {
 
 .lighter {
   background: #f8eae7;
-}
-
-.labels li {
-  padding-bottom: 0.7rem;
 }
 
 .labels i {
@@ -285,21 +303,7 @@ header {
 
 .chrome-links {
   margin: 25px 10px;
-}
-
-.chrome-links li a {
-  color: #575555;
-}
-
-.chrome-links {
   width: 85%;
-  margin: auto;
-}
-
-.chrome-links li {
-  padding: 8px 0;
-  font-size: 12px;
-  border-bottom: 1px solid rgb(183, 187, 183);
 }
 
 .deals {
@@ -336,14 +340,6 @@ footer {
   border-radius: 50%;
   padding: 8px;
   text-align: center;
-}
-
-.social ul li a {
-  color: white;
-}
-
-.footer-links a {
-  color: #aaa;
 }
 
 .footer-links {
