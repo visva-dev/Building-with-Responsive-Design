@@ -44,7 +44,7 @@ nav {
 }
 
 .orange {
-  color: #ff4422;
+  color: #f42;
 }
 
 header {
@@ -74,7 +74,8 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  background: linear-gradient(
+  background:
+    linear-gradient(
       180deg,
       rgba(2, 0, 36, 0.3883928571428571) 0%,
       rgba(0, 0, 0, 0.6741071428571428) 55%,
@@ -88,7 +89,8 @@ header {
 }
 
 .news2 {
-  background: linear-gradient(
+  background:
+    linear-gradient(
       180deg,
       rgba(2, 0, 36, 0.3883928571428571) 0%,
       rgba(0, 0, 0, 0.6741071428571428) 55%,
@@ -98,7 +100,8 @@ header {
 }
 
 .news3 {
-  background: linear-gradient(
+  background:
+    linear-gradient(
       180deg,
       rgba(2, 0, 36, 0.3883928571428571) 0%,
       rgba(0, 0, 0, 0.6741071428571428) 55%,
@@ -184,7 +187,7 @@ header {
 
 .company {
   position: relative;
-  background: linear-gradient(180deg, #ff4422 15%, rgb(248, 217, 217) 5%);
+  background: linear-gradient(180deg, #f42 15%, rgb(248, 217, 217) 5%);
   margin: auto 15px;
 }
 
@@ -211,7 +214,7 @@ header {
   padding: 1rem 0 1rem 1rem;
   color: #333;
   list-style: none;
-  border-bottom: 1px solid #ff4422;
+  border-bottom: 1px solid #f42;
 }
 
 .lighter {
@@ -224,7 +227,6 @@ header {
 
 .labels i {
   padding-right: 0.8rem;
-
 }
 
 .label2,
@@ -258,7 +260,7 @@ header {
 }
 
 .txt-line {
-  border-top: 0.1px solid #ff4422;
+  border-top: 0.1px solid #f42;
   width: 90%;
   margin: 0 auto;
 }
@@ -341,7 +343,7 @@ footer {
 }
 
 .footer-links a {
-  color: #aaaaaa;
+  color: #aaa;
 }
 
 .footer-links {
@@ -365,14 +367,15 @@ footer {
   margin: 6em auto 0 auto;
   text-align: center;
   width: 60%;
-  color: #fdf8f6; 
+  color: #fdf8f6;
 }
 
 .date {
   display: none;
 }
 
-.hidden, .desktop {
+.hidden,
+.desktop {
   display: none;
 }
 
@@ -438,9 +441,11 @@ footer {
   .news {
     grid-area: news;
   }
+
   .news2 {
     grid-area: news2;
   }
+
   .news3 {
     grid-area: news3;
   }
@@ -527,15 +532,16 @@ footer {
 
   .news {
     position: relative;
-    background: linear-gradient(
-      180deg,
-      rgba(2, 0, 36, 0.3883928571428571) 0%,
-      rgba(0, 0, 0, 0.6741071428571428) 55%,
-      rgba(0, 0, 0, 1) 100%
-    ),
-    url(images/tnw.svg) no-repeat 15px 15px,
-    url(images/cover-gradient.png),
-    url(images/work-home-side-job-gq-796x417.png);
+    background:
+      linear-gradient(
+        180deg,
+        rgba(2, 0, 36, 0.3883928571428571) 0%,
+        rgba(0, 0, 0, 0.6741071428571428) 55%,
+        rgba(0, 0, 0, 1) 100%
+      ),
+      url(images/tnw.svg) no-repeat 15px 15px,
+      url(images/cover-gradient.png),
+      url(images/work-home-side-job-gq-796x417.png);
     background-size: auto, 20rem, auto;
   }
 
