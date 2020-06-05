@@ -55,6 +55,11 @@ header {
   z-index: 1;
 }
 
+.middle-wrapper {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
 .yellow {
   background: rgb(255, 219, 56);
   padding: 1.2rem 1rem;
@@ -315,7 +320,7 @@ footer {
 .social ul {
   display: flex;
   font-size: 1.3rem;
-  justify-content: space-evenly;
+  justify-content: center;
   list-style-type: none;
   width: 50%;
   margin: auto;
@@ -355,18 +360,14 @@ footer {
   padding-left: 7px;
   text-align: center;
 }
-/* fix this to the bottom */
+
 .bottom-footer {
-  position: absolute;
-  display: flex;
-  margin: 2em auto;
+  margin: 6em auto 0 auto;
   text-align: center;
-  justify-content: center;
-  bottom: 0;
   width: 60%;
-  flex-wrap: wrap;
-  color: #fdf8f6;
+  color: #fdf8f6; 
 }
+
 .date {
   display: none;
 }
@@ -505,6 +506,10 @@ footer {
     grid-template-columns: auto auto;
     margin: auto;
   }
+
+  .md {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -558,7 +563,8 @@ footer {
     grid-template-columns: auto auto auto;
   }
 
-  .desktop {
+  .desktop,
+  .md {
     display: block;
   }
 }
