@@ -277,25 +277,25 @@ header {
   height: 100%;
 }
 
-.chrome > label {
+.chrome > div {
   width: 90%;
 }
 
 .chrome-links {
-  margin: 30px 23px;
+  margin: 25px 10px;
 }
 
-.chrome-links ul li a {
+.chrome-links li a {
   color: #575555;
 }
 
-.chrome-links ul {
+.chrome-links {
   width: 85%;
   margin: auto;
 }
 
-.chrome-links ul li {
-  padding: 10px 0;
+.chrome-links li {
+  padding: 8px 0;
   font-size: 12px;
   border-bottom: 1px solid rgb(183, 187, 183);
 }
@@ -563,7 +563,6 @@ footer {
     grid-template-columns: auto auto auto;
   }
 
-  .desktop,
   .md {
     display: block;
   }
