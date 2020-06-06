@@ -449,8 +449,8 @@ footer {
   .news-holder {
     display: grid;
     grid-template-areas:
-      'news news  news news2'
-      'news news news news3';
+      'news news news2'
+      'news news news3';
     height: 45vh;
     width: 98%;
     grid-gap: 8px;
@@ -519,11 +519,11 @@ footer {
   }
 
   .news-holder {
-    height: 60vh;
-  }
-
-  .small {
-    background-size: 40% 20%;
+    grid-template-areas:
+      'news news2'
+      'news news3';
+    grid-template-columns: 2fr 1fr;
+    height: 70vh;
   }
 
   .news {
@@ -542,8 +542,8 @@ footer {
   }
 
   .date {
-    display: block;
     position: absolute;
+    display: block;
     top: 1em;
     right: 1em;
     opacity: 50%;
