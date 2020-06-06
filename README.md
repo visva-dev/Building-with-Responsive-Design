@@ -15,7 +15,7 @@ The page tries to replicate as much as possible the actual TheNextWeb Web page a
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/visva-dev/Building-with-Responsive-Design/822c09b2348dadf1afafb41836940077f5650296/index.html)
+[Live Demo Link](https://raw.githack.com/visva-dev/Building-with-Responsive-Design/feature-branch/index.html)
 
 ## Authors
 
