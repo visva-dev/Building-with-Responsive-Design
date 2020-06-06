@@ -544,15 +544,15 @@ footer {
   .date {
     position: absolute;
     display: block;
-    top: 1em;
-    right: 1em;
+    top: 1rem;
+    right: 1rem;
     opacity: 50%;
   }
 
   .latest-news,
   .latest-deals {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: repeat(4, auto);
   }
 
   .company-holder {
