@@ -1,7 +1,7 @@
 # design-teardown
 Microverse 6th Project (Collaborative)
 
-> This page is a clone of thenextweb  page.
+> This project consists of replicating the "TheNextWeb" website putting emphasis on how it behaves differently depending on the size of the screen where the website is rendered. Elements are aligned with float, flex and grid. This project used a mobile first approach with breakpoints at 768px and 1024px.
 
 ![screenshot](./images/screenshot.png)
 
