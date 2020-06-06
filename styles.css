@@ -449,9 +449,10 @@ footer {
   .news-holder {
     display: grid;
     grid-template-areas:
-      'news news news2'
-      'news news news3';
-    height: 45vh;
+      'news news2'
+      'news news3';
+    height: 40vh;
+    grid-template-columns: 2fr 1fr;
     width: 98%;
     grid-gap: 8px;
   }
